@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://anysebray.com/"
+baseurl = "anysebray.com/"
 languageCode = "en-us"
 title = ""
 copyright = "© 2024 Anyse Bray"
@@ -49,10 +49,10 @@ h = "1200"
 
 # Contact section
 [params.contact]
-description = "I can be reached via email or social media."
+description = "Anyse Bray is an artist working in encaustic and mixed media. Each piece of art she creates is an expression of praise; conveyed with restful, inventive energy. She often explores the compact yet immense journey from seed to plant, bud to bloom - her favorite metaphors for the joy of faith. Her work has been exhibited in the US & Japan. She can be reached via email or social media."
 twitter = ""
 facebook = ""
 linkedin = ""
 instagram = "https://www.instagram.com/anyse.bray/"
 github = ""
-email = "#"
+email = "mailto:anysebray@gmail.com"
