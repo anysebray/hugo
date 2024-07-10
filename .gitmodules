@@ -1,3 +1,3 @@
 [submodule "hugo/themes/hugo-theme-doors"] 
   path = hugo/themes/hugo-theme-doors 
-  url = git://zzzmisa/hugo-theme-doors
+  url = git://hugo/themes/hugo-theme-doors
