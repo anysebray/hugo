@@ -59,7 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ anysebray.com }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -69,7 +69,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ anysebray.com }}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
