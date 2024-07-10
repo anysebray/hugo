@@ -1,0 +1,58 @@
+# Page settings
+
+baseurl = "https://anysebray.com/"
+languageCode = "en-us"
+title = ""
+copyright = "© 2024 Anyse Bray"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+theme = "hugo-theme-doors"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+# Site information
+[params]
+googleTagManager = "GTM-xxxxxxxx"
+description = ""
+ogimage = "images/work1.jpg"
+
+# Project section
+[params.projects]
+
+[[params.projects.list]]
+title = ""
+url = "#"
+description = ""
+image = "images/work1.jpg"
+w = "1098"
+h = "648"
+
+# Subproject section
+[params.subprojects]
+
+[[params.subprojects.list]]
+title = "Crowned with Joy"
+url = "#"
+description = "Encaustic, pastel"
+image = "images/work2.jpg"
+w = "600"
+h = "1200"
+
+[[params.subprojects.list]]
+title = "Bluebonnet Window"
+url = "#"
+description = "Encaustic, pastel, mica"
+image = "images/work3.jpg"
+w = "600"
+h = "1200"
+
+# Contact section
+[params.contact]
+description = "I can be reached via email or social media."
+twitter = ""
+facebook = ""
+linkedin = ""
+instagram = "https://www.instagram.com/anyse.bray/"
+github = ""
+email = "#"
