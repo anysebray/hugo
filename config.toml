@@ -22,7 +22,7 @@ ogimage = "images/work1.jpg"
 
 [[params.projects.list]]
 title = ""
-url = ""
+url = 
 description = ""
 image = "images/work1.jpg"
 w = "1098"
@@ -33,7 +33,7 @@ h = "648"
 
 [[params.subprojects.list]]
 title = "Crowned with Joy"
-url = ""
+url = 
 description = "Encaustic, pastel"
 image = "images/work2.jpg"
 w = "600"
@@ -41,7 +41,7 @@ h = "1200"
 
 [[params.subprojects.list]]
 title = "Bluebonnet Window"
-url = ""
+url = 
 description = "Encaustic, pastel, mica"
 image = "images/work3.jpg"
 w = "600"
